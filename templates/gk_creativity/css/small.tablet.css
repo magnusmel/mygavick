@@ -1,0 +1,149 @@
+/*
+#------------------------------------------------------------------------
+# Creativity - May Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+ 
+.itemContainer .itemsContainerWrap,
+.itemsContainer .itemsContainerWrap {
+	margin: 0!important;	
+}
+
+.itemContainer,
+.itemsContainer {
+	clear: both;
+	width: 100%!important;
+}
+
+#gkInset,
+#gkContentWrap {
+	width: 100%!important;
+}
+
+#gkInset {
+	margin-top: 14px!important;
+	padding: 0!important;
+}
+
+#k2Container article header h2 {
+	font-size: 32px;
+	line-height: 32px;
+}
+.demo-typo-col2,
+.demo-typo-col3,
+.demo-typo-col4 {
+	clear: both;
+	float: none;
+	width: 100%;
+}
+
+article header h1, 
+article header h2 {
+	font-size: 32px;
+}
+
+/* Intro */
+.gkIsWrapper-gk_creativity .figcaption h1 {
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 1.0;
+	margin: 48px auto 0 auto;
+	max-width: 600px;
+}
+
+.gkIsWrapper-gk_creativity .figcaption h2 {
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 1.0;
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+/* Other elements */
+.gkTeam.col4 figure { 
+	width: 48%; 
+}
+
+.gkTeam figure {
+	margin-bottom: 2%;
+}
+
+.gkTestimonial.col4 { 
+	width: 50%; 
+}
+
+.gkPriceTable dl {
+	padding: 20px 10px;
+}
+
+.gkPriceTable dt {
+	font-size: 16px;
+}
+
+.gkPriceTable dl dd.gkPrice {
+	font-size: 32px;
+}
+
+.gkPriceTable dd a {
+	margin: 10px 0;
+	padding: 0 20px;
+}
+
+#gkBreadcrumb {
+	padding: 10px 0;
+}
+
+.breadcrumbs > ul > li {
+	font-size: 22px;
+	line-height: 3.5;
+}
+
+.latestView {
+	margin: 0!important;
+}
+
+.gkIsWrapper-gk_creativity .figcaption h1,
+.gkIsWrapper-gk_creativity .figcaption h2 {
+	max-width: 550px;
+}
+
+@media (max-width: 660px) {
+    body #cc-notification h2, 
+    body #cc-notification h3, 
+    body #cc-notification p {
+        font-size: 12px!important;
+        margin-bottom:0!important;
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+
+    body #cc-notification h2 span, 
+    body #cc-notification h2 {
+        font-size: 12px!important;
+    }
+
+    body #cc-notification #cc-notification-wrapper {
+        padding: 10px 32px 0!important;
+    }
+
+    body #cc-notification ul.cc-notification-buttons {
+        clear: both!important;
+        width: 100%!important;
+        position: static!important;
+        text-align: center;
+    }
+
+    body #cc-notification ul.cc-notification-buttons li {
+        float: none!important;
+        display: inline-block;
+    }
+
+    body #cc-notification a, 
+    body #cc-notification a:visited {
+        font-size: 12px!important;
+    }
+}
